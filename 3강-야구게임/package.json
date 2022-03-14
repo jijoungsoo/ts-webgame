@@ -1,0 +1,9 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "author": "Ji",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.2" /*^의 의미는 범위를 의마한다.   4.6.2 <= x <5.0.0  사이의 버전을 설치하라 */
+  }
+}

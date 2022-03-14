@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,   /*자바스크립트 에러 체크*/
+        "strict": true,   /*strict는 기본 false인데  켜두는게 좋다고 한다.   strict*   noImplict*  로 시작하는건  true로 켜두는게 좋다. */
+        "noImplicitAny": true,
+        "noImplicitThis":true,
+        "noImplicitReturns": true,
+        "lib":["DOM","ES5","ES6","ES2017","ES2018","ES2019","ES2020"],
+        "typeRoots":["./types","./node_modules/@types"],
+        "target": "ES6", /*ES6==2015*/
+        "strictNullChecks":true,
+        /* 라이브러리 만들때사용 d.ts를 자동으로 만들어준다는데 이해안됨
+        "declaration": true,
+        "declarationDir": "./types"
+        */
+      
+    },
+    /*"include":["*.ts"], d.ts도 만들었는데 특정해서 d.ts가 안읽혀다 지우자*/
+    "exclude":["*.js"]
+}
